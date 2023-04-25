@@ -2,11 +2,19 @@
 <html>
 
 <head>
-	<title>Pentest Site</title>
+	<title>Atacante</title>
 </head>
 
 <body>
-	<h1>Site Vulneravel</h1>
+	<h1>Atacador Perigoso ^_^</h1>
+	<script src="https://connect.facebook.net/en_US/sdk.js"></script>
+	<div id="result"></div>
+
+	<script>
+		var div = document.getElementById("result");
+		// div.innerHTML = "<b>" + top.FB.AppEvents + "</b>";
+		console.log(window.FB.AppEvents.getUserID())
+	</script>
 </body>
 
 </html>
